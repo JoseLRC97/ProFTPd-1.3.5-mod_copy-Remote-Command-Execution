@@ -11,6 +11,7 @@ import socket
 import random
 import string
 import requests
+import argparse
 
 class ProFTPDExploit:
     def __init__(self, rhost, rport_ftp, target_uri, tmppath, sitepath):
